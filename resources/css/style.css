@@ -116,13 +116,29 @@ body {
     text-align: center;
 }
 
+.locationHours {
+    display: flex;
+    justify-content: space-around;
+}
+
+.locationColumn {
+    width: 35%;
+}
+
+
 .label {
     background-color: black;
     color: white;
-    width: 35%;
     padding: 1rem 1rem;
 }
 
-.locationHours {
+.underLabel {
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    height: 5rem;
     display: flex;
+    align-items: center;
 }
