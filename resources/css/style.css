@@ -118,11 +118,14 @@ body {
 
 .locationHours {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    width: 960px;
+    margin: auto;   
 }
 
 .locationColumn {
     width: 35%;
+    margin-bottom: 4rem;
 }
 
 
@@ -135,10 +138,19 @@ body {
 .underLabel {
 }
 
+.footerGroup {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    align-items: center;
+}
+
 .footer {
     background-color: black;
     color: white;
     height: 5rem;
-    display: flex;
+    width: 960px;
+    margin: auto 0;
     align-items: center;
+    display: flex;
 }
